@@ -53,11 +53,11 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 5. Utiliza el botón "C" para borrar la entrada y reiniciar el cálculo.
 
 ## Estructura de Archivos
-- `App.xaml` y `App.xaml.cs`: Configuración principal de la aplicación, incluyendo el manejo de recursos y eventos de inicio.
-- `AssemblyInfo.cs`: Contiene metadatos sobre el ensamblado (assembly), como el título, la versión, la descripción, la visibilidad COM y un identificador único (GUID).
-- `Calculadora.csproj`: Archivo de proyecto que define las dependencias, configuraciones de compilación y otras propiedades del proyecto.
-- `MainWindow.xaml`: Define el diseño visual de la ventana principal de la calculadora, incluyendo botones, pantalla y otros controles.
-- `MainWindow.xaml.cs`: Contiene la lógica de la aplicación, como la captura de eventos de clic y la ejecución de las operaciones matemáticas.
+- `Calculadora/App.xaml` y `Calculadora/App.xaml.cs`: Configuración principal de la aplicación, incluyendo el manejo de recursos y eventos de inicio.
+- `Calculadora/AssemblyInfo.cs`: Contiene metadatos sobre el ensamblado (assembly), como el título, la versión, la descripción, la visibilidad COM y un identificador único (GUID).
+- `Calculadora/Calculadora.csproj`: Archivo de proyecto que define las dependencias, configuraciones de compilación y otras propiedades del proyecto.
+- `Calculadora/MainWindow.xaml`: Define el diseño visual de la ventana principal de la calculadora, incluyendo botones, pantalla y otros controles.
+- `Calculadora/MainWindow.xaml.cs`: Contiene la lógica de la aplicación, como la captura de eventos de clic y la ejecución de las operaciones matemáticas.
 - `Calculadora.sln`: Archivo de solución de Visual Studio que contiene la configuración del proyecto.
 
   ```bash
