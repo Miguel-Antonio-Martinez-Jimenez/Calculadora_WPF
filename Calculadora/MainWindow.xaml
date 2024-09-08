@@ -1,0 +1,19 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="CalculadoraWPF" Height="370" Width="310">
+    <Grid Background="#FF191A1C">
+        <TextBox x:Name="txtPanel" HorizontalAlignment="Center" Height="40" Margin="0,26,0,0" Text="" VerticalAlignment="Top" Width="266" FontFamily="Cascadia Code SemiBold" FontSize="33" TextAlignment="Right" Background="#FF191A1C" Foreground="White"/>
+        <Button x:Name="btnSuma" Content="+" HorizontalAlignment="Left" Height="70" Margin="22,158,0,0" VerticalAlignment="Top" Width="80" FontFamily="Franklin Gothic Heavy" FontSize="25" Background="#FF38393B" Foreground="White" Click="btnSuma_Click"/>
+        <Button x:Name="btnResta" Content="-" HorizontalAlignment="Center" Height="70" Margin="0,158,0,0" VerticalAlignment="Top" Width="80" FontFamily="Franklin Gothic Heavy" FontSize="25" Background="#FF38393B" Foreground="White" Click="btnResta_Click"/>
+        <Button x:Name="btnMultiplicacion" Content="*" HorizontalAlignment="Left" Height="70" Margin="22,243,0,0" VerticalAlignment="Top" Width="80" FontFamily="Franklin Gothic Heavy" FontSize="25" Background="#FF38393B" Foreground="White" Click="btnMultiplicacion_Click"/>
+        <Button x:Name="btnDivicion" Content="/" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="80" FontFamily="Franklin Gothic Heavy" FontSize="25" Margin="0,243,0,0" Background="#FF38393B" Foreground="White" Click="btnDivicion_Click"/>
+        <Button x:Name="btnLimpiar" Content="C" HorizontalAlignment="Left" Height="45" Margin="22,95,0,0" VerticalAlignment="Top" Width="173" FontFamily="Franklin Gothic Heavy" FontSize="25" Foreground="White" Background="#FF6F7075" Click="btnLimpiar_Click"/>
+        <Button x:Name="btnIgual" Content="=" HorizontalAlignment="Left" Height="218" Margin="208,95,0,0" VerticalAlignment="Top" Width="80" FontFamily="Franklin Gothic Heavy" FontSize="25" Background="#FFEB8A29" Foreground="White" Click="btnIgual_Click"/>
+
+    </Grid>
+</Window>
