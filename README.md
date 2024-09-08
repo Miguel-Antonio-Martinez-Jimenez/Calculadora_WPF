@@ -7,6 +7,7 @@
 Este proyecto es una calculadora de escritorio desarrollada en `C#` utilizando `Windows Presentation Foundation (WPF)`. La aplicación proporciona una interfaz gráfica intuitiva que facilita la ejecución de operaciones matemáticas básicas, tales como suma, resta, multiplicación y división, en un entorno interactivo y visualmente atractivo.
 
 ## Objetivo
+El objetivo de este proyecto es crear una calculadora de escritorio en `C#` utilizando `Windows Presentation Foundation (WPF)` con un enfoque en la simplicidad y la facilidad de uso. La calculadora está diseñada para realizar operaciones matemáticas básicas como suma, resta, multiplicación y división, proporcionando una experiencia de usuario amigable y eficiente. La meta es ofrecer una herramienta visualmente atractiva que agilice los cálculos cotidianos, combinando funcionalidad y un diseño intuitivo para mejorar la interacción del usuario.
 
 ## Características
 1. **Operaciones Matemáticas Básicas**: La calculadora permite realizar operaciones aritméticas esenciales como:
