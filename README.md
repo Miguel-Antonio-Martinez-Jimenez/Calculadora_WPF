@@ -31,12 +31,16 @@ El objetivo de este proyecto es crear una calculadora de escritorio en `C#` util
 
 ## Guía de Instalación
 1. Clona el repositorio o descarga los archivos.
+   
    ```bash
    git clone https://github.com/Miguel-Antonio-Martinez-Jimenez/Calculadora_WPF.git
-2. Navega hasta el directorio del proyecto y abre el archivo de solución `(Calculadora.sln)` con Visual Studio.
-3. Restaura los paquetes NuGet si es necesario y asegúrate de que todos los componentes estén correctamente instalados.
-4. Compila el proyecto presionando `Ctrl + Shift + B` o seleccionando **"Compilar Solución"** en el menú.
-5. Ejecuta la aplicación presionando `F5` o seleccionando **"Iniciar Depuración"**.
+3. Navega hasta el directorio del proyecto y abre el archivo de solución `(Calculadora.sln)` con Visual Studio.
+4. Restaura los paquetes NuGet si es necesario y asegúrate de que todos los componentes estén correctamente instalados.
+5. Compila el proyecto presionando `Ctrl + Shift + B` o seleccionando **"Compilar Solución"** en el menú.
+6. Ejecuta la aplicación presionando `F5` o seleccionando **"Iniciar Depuración"**.
+
+## Conexión con la Base de Datos
+Este proyecto no requiere un sistema de gestión de bases de datos. En su lugar, se emplean archivos para el almacenamiento y manejo de los datos.
 
 ## Accesos o Credenciales
 El proyecto no requiere de accesos o credenciales específicas para su uso. Solo es necesario clonar el repositorio y contar con los requisitos instalados en tu sistema para poder ejecutar el código.
@@ -48,12 +52,26 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 4. Presiona el botón "=" para ver el resultado en la pantalla de la calculadora.
 5. Utiliza el botón "C" para borrar la entrada y reiniciar el cálculo.
 
-## Estructura del Proyecto
-- `Calculadora.sln`: Archivo de solución de Visual Studio que contiene la configuración del proyecto.
+## Estructura de Archivos
 - `App.xaml` y `App.xaml.cs`: Configuración principal de la aplicación, incluyendo el manejo de recursos y eventos de inicio.
+- `AssemblyInfo.cs`: Contiene metadatos sobre el ensamblado (assembly), como el título, la versión, la descripción, la visibilidad COM y un identificador único (GUID).
+- `Calculadora.csproj`: Archivo de proyecto que define las dependencias, configuraciones de compilación y otras propiedades del proyecto.
 - `MainWindow.xaml`: Define el diseño visual de la ventana principal de la calculadora, incluyendo botones, pantalla y otros controles.
 - `MainWindow.xaml.cs`: Contiene la lógica de la aplicación, como la captura de eventos de clic y la ejecución de las operaciones matemáticas.
-- `Calculadora.csproj`: Archivo de proyecto que define las dependencias, configuraciones de compilación y otras propiedades del proyecto.
+- `Calculadora.sln`: Archivo de solución de Visual Studio que contiene la configuración del proyecto.
+
+  ```bash
+  Calculadora_WPF/
+  ├── Calculadora/
+  │   ├── App.xaml
+  │   ├── App.xaml.cs
+  │   ├── AssemblyInfo.cs
+  │   ├── Calculadora.csproj
+  │   ├── MainWindow.xaml
+  │   └── MainWindow.xaml.cs
+  ├── Calculadora.sln
+  ├── LICENSE
+  └── README.md
 
 ## Estado del Proyecto
 **Estado Actual:** `Finalizado.`
